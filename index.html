@@ -29,19 +29,29 @@
   <script src="./static/js/index.js"></script> -->
   
   <style>
-  .logo-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin: 40px 0;
-  }
+	.logo-row {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+		flex-wrap: wrap;
+		margin: 40px 0;
+	}
 
-  .logo-row img {
-    height: 120px;
-    max-width: 100%;
-  }
+	.logo-row img {
+		height: auto;
+		max-width: 150px;
+		width: 100%
+	}
+	.logo {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
+	
+	.logo-3 {
+		height: 100px;
+	}
 </style>
 </head>
 <body>
@@ -95,8 +105,8 @@
 <!-- Logo display	-->
 <div class="logo-row">
   <img src="./static/images/HustLogo.png" alt="Logo 1">
-  <img src="./static/images/TouDaiLogo.png" alt="Logo 2">
-  <img src="./static/images/LivUniLogo.png" alt="Logo 3">
+  <img src="./static/images/LivUniLogo.png" alt="Logo 2">
+  <img src="./static/images/TouDaiLogo.png" alt="Logo 3" class="logo logo-3">
 </div>
 
 <section class="hero">
@@ -117,7 +127,7 @@
               <a href="https://hust.edu.vn/">Thi-Thoa Mac</a><sup>1</sup></span>
 			  -->
 			<span class="author-block">Ngoc-Duy Tran<sup>1</sup>,</span>
-			<span class="author-block">Honag-Hiep Ly<sup>1</sup>,</span>
+			<span class="author-block">Hoang-Hiep Ly<sup>1</sup>,</span>
 			<span class="author-block">Thi-Thoa Mac<sup>1</sup>,</span>
 			<span class="author-block">		
               <a href="https://scholar.google.co.uk/citations?user=gEbaF0sAAAAJ">Anh Nguyen</a><sup>2</sup></span>
@@ -210,6 +220,8 @@
   </div>
 </section>
 
+<!-- Hero teaser (might be needed for future use -->
+<!--	
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -217,6 +229,7 @@
     </div>
   </div>
 </section>
+-->
 
 <section class="section">
   <div class="container is-max-desktop">
