@@ -27,6 +27,22 @@
   <!-- <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script> -->
+  
+  <style>
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+  }
+
+  .logo-row img {
+    height: 60px;
+    max-width: 100%;
+  }
+</style>
 </head>
 <body>
 
@@ -76,6 +92,12 @@
   </div>
 </nav>
 
+<!-- Logo display	-->
+<div class="logo-row">
+  <img src="./static/images/HustLogo.png" alt="Logo 1">
+  <img src="./static/images/TouDaiLogo.png" alt="Logo 2">
+  <img src="./static/images/LivUniLogo.png" alt="Logo 3">
+</div>
 
 <section class="hero">
   <div class="hero-body">
@@ -113,7 +135,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://DucTato.github.io/static/ICRA2025.pdf"
+                <a href="static/ICRA2025.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
